@@ -1,0 +1,39 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+
+    background-image: url("cover.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background: #8B0000;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+main {
+    max-width: 900px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
