@@ -1,39 +1,108 @@
-html, body {
-    min-height: 100%;
-}
+
+
 
 body {
+    margin: 0;
     min-height: 100vh;
 
-    background-image: url("A.png");
+    background-image: url("images/aigen2.png");
+    background-size: contain;
+    background-position: center 25%;
+    background-repeat: no-repeat;
+}
+/* หน้า 2 */
+.home-page {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("images/BG.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
-header {
+.home-page h1 {
+    margin: 0;
+    padding-top: 35px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.button-column {
+    position: fixed;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transform: translateY(-50%);
+}
+
+.button-column-left {
+    left: 30px;
+}
+
+.button-column-right {
+    right: 30px;
+}
+
+.button-column button {
+    width: 125px;
+    padding: 12px 10px;
+    border: 0;
+    border-radius: 8px;
     background: #8B0000;
     color: white;
-    padding: 50px 100px;
-    text-align: center;
-
-    width: fit-content;
-    margin: 20px auto;
-    border-radius: 8px;
-}
-
-main {
-    max-width: 900px;
-    margin: 100px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-button {
-    padding: 12px 25px;
     font-size: 16px;
     cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.button-column button:hover {
+    background: #B22222;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .button-column {
+        gap: 8px;
+    }
+
+    .button-column-left {
+        left: 10px;
+    }
+
+    .button-column-right {
+        right: 10px;
+    }
+
+    .button-column button {
+        width: 90px;
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+}
+
+
+/* ปุ่มเข้าหน้าเว็บไซต์ */
+.enter-button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    padding: 12px 25px;
+
+    background: #8B0000;
+    color: white;
+
+    text-decoration: none;
+    font-size: 18px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.enter-button:hover {
+    background: #B22222;
 }
