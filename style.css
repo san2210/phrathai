@@ -42,6 +42,11 @@ body {
     left: 30px;
 }
 
+.button-column-middle {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .button-column-right {
     right: 30px;
 }
@@ -105,4 +110,31 @@ body {
 
 .enter-button:hover {
     background: #B22222;
+}
+
+.home-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    padding: 10px 16px;
+
+    background: #8B0000;
+    color: white;
+
+    text-decoration: none;
+    font-size: 15px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+
+    z-index: 1000;
+
+    transition: background 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+    background: #B22222;
+    transform: scale(1.05);
 }
