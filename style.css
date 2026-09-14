@@ -93,23 +93,28 @@ body {
 .enter-button {
     position: fixed;
     right: 30px;
-    bottom: 30px;
-
+    bottom: 240px;
     padding: 12px 25px;
-
     background: #8B0000;
     color: white;
-
     text-decoration: none;
     font-size: 18px;
-
     border-radius: 8px;
-
     transition: 0.3s;
 }
 
 .enter-button:hover {
     background: #B22222;
+}
+
+/* รูปด้านล่างขวา */
+.bottom-right-img {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    width: 200px;
+    height: auto;
+    z-index: 20;
 }
 
 .home-button {
