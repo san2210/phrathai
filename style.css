@@ -93,12 +93,28 @@ body {
     }
 }
 
+.line-button {
+    position: fixed;
+    right: 30px;
+    bottom: 250px;
+    padding: 12px 25px;
+    background: #06C755;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    z-index: 20;
+}
+
+.line-button:hover {
+    background: #05a947;
+}
 
 /* ปุ่มเข้าหน้าเว็บไซต์ */
 .enter-button {
     position: fixed;
     right: 30px;
-    bottom: 240px;
+    bottom: 300px;
     padding: 12px 25px;
     background: #8B0000;
     color: white;
