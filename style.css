@@ -96,7 +96,7 @@ body {
 .line-button {
     position: fixed;
     right: 30px;
-    bottom: 250px;
+    bottom: 300px;
     padding: 12px 25px;
     background: #06C755;
     color: white;
@@ -110,11 +110,27 @@ body {
     background: #05a947;
 }
 
+.phone-button {
+    position: fixed;
+    right: 30px;
+    bottom: 250px;
+    padding: 12px 25px;
+    background: #0066cc;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    z-index: 20;
+}
+
+.phone-button:hover {
+    background: #004c99;
+}
 /* ปุ่มเข้าหน้าเว็บไซต์ */
 .enter-button {
     position: fixed;
     right: 30px;
-    bottom: 300px;
+    bottom: 350px;
     padding: 12px 25px;
     background: #8B0000;
     color: white;
